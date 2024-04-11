@@ -14,19 +14,23 @@ header {
 .hero {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    gap: 1rem;
+    
 }
 
-.hero-text, .hero-img {
-    flex: 1;
+.hero > * {
+    flex-shrink: 1;
+    flex-basis: 100%;
 
 }
 
 
 .hero h1 {
     font-size: 48px;
-    font-weight: bolder; 
-    flex: 1;
+    font-weight: bolder;
+    margin: 0px;
+    justify-self: auto;
+    
 }
 .hero p {
     font-size: 18px;
