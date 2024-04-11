@@ -21,12 +21,14 @@ header {
     
 }
 
-
+.hero-text, .hero-img {
+    flex-basis: 40%;
+}
 
 .hero h1 {
     font-size: 48px;
-    font-weight: bolder;
-    margin: 0px;
+    font-weight: 800;
+    margin: 0;
 }
 
 .hero p {
@@ -37,16 +39,18 @@ header {
 .hero button {
     background-color: #3882f6;
     color: #f9faf8;
+    font-size: 20px;
+    border; none;
     border-radius: 8px;
     margin: 10px 0;
     padding: 6px 28px;
 }
 
 .hero-img {
-   align-items: center;
-   justify-content: center;
+   flex-basis: 40%;
    display: flex;
-   overflow: hidden;
+   justify-content: center;
+   align-items: center;
 
 }
 
