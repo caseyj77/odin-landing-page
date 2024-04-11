@@ -7,5 +7,26 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    gap: 600px;
+
 }
+
+.nav-left, .nav-right {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-left {
+    font-size: 24px;
+
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 15px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
