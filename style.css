@@ -1,0 +1,21 @@
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: right;
+
+}
+.hero h1 {
+    font-size: 10px;
+    font-weight: 900;
+    
+}
+.hero {
+    display: flex;
+    
+}
