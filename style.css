@@ -14,24 +14,21 @@ header {
 .hero {
     display: flex;
     justify-content: space-around;
-    gap: 1rem;
+    align-items: center;
+    padding: 25px;
+    background-color: #1f2937;
+    color: #f9faf8;
     
 }
 
-.hero > * {
-    flex-shrink: 1;
-    flex-basis: 100%;
-
-}
 
 
 .hero h1 {
     font-size: 48px;
     font-weight: bolder;
     margin: 0px;
-    justify-self: auto;
-    
 }
+
 .hero p {
     font-size: 18px;
     color: #E5E7EB;
@@ -39,11 +36,23 @@ header {
 
 .hero button {
     background-color: #3882f6;
-    border-radius: 12px;
+    color: #f9faf8;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 6px 28px;
 }
 
 .hero-img {
-   align-content: center;
-   padding: 50%,
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   overflow: hidden;
+
+}
+
+.hero-img img {
+    max-width: 100%;
+    max-height: 250px;
+    height: auto;
 
 }
