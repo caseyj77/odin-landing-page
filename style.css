@@ -83,11 +83,23 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 15px;
 
 }
 
-.image-containers img {
-    border-color: #3882f6;
-    border: 10px;
+.image-box {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #3882f6;
+    text-align: center;
+    
+}
+
+.img-box img {
+    width: 150px;
+    height: 150px;
+}
+.image-box p {
+    margin-top: 5px;
 }
