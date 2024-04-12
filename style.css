@@ -114,20 +114,47 @@ header {
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+    padding: 20px;
+    
 }
 
 .quote {
+    display: flex;
     font-size: 36px;
     color: #1f2937;
+    font-weight: lighter;
     font-style: italic;
-    max-width: 750px;
+    padding: 30px;
+    max-width: 700px;
+    justify-content: center;
 
 }
 
 .quote-auth {
-    display: flex;
-    justify-content: right;
+    text-align: right;
     font-weight: bolder;
-    max-width: 750px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.call-to-action {
+    background-color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.cta-container {
+    background-color: #3882f6;
+    width: 700px;
+    height: 90px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
