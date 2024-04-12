@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: #1f2937;
     color: #f9faf8;
@@ -33,7 +38,7 @@ header {
 }
 
 .hero-text {
-    width: 50%;
+    max-width: 450px;
     padding: 40px;
     margin: 20px;
 }
@@ -65,4 +70,24 @@ header {
 .hero-img img {
     width: 600px;
     height: auto;
+}
+
+.info-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.image-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.image-containers img {
+    border-color: #3882f6;
+    border: 10px;
 }
