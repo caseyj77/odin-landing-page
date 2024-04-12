@@ -119,4 +119,15 @@ header {
 
 .quote {
     font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    max-width: 750px;
+
+}
+
+.quote-auth {
+    display: flex;
+    justify-content: right;
+    font-weight: bolder;
+    max-width: 750px;
 }
