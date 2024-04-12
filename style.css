@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -58,13 +59,12 @@ header {
 }
 
 .hero button {
+    font-weight: 400;
+    color: #fff;
     background-color: #3882f6;
-    color: #f9faf8;
-    font-size: 20px;
-    border: none;
-    border-radius: 8px;
-    margin: 10px 0;
-    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    padding: 7px 25px;
 }
 
 .hero-img img {
@@ -140,14 +140,12 @@ header {
 }
 
 .call-to-action {
-    background-color: white;
+    background-color: #fff;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
 
 .cta-container {
     background-color: #3882f6;
@@ -157,4 +155,38 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cta-text {
+    width: 500px;
+    margin-right: 50px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.cta-text p {
+    color: #f9faf8;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.cta-button {
+    font-weight: 400;
+    color: #fff;
+    background-color: #3882f6;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    padding: 7px 25px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px;
+    font-weight: lighter;
 }
