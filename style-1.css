@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Norse Bold";
+}
+
+button {
+    background-color: #596d48;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#form-left {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-left {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+
+}
