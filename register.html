@@ -7,46 +7,46 @@
     <title>User Registration</title>
 </head>
 <body>
-    <div id="left-container">
-        <div id="logo-container">
-            <h1>ODIN</h1>
+    <div id="page-container">
+        <div id="left-container">
+          <p>LEFT</p>
         </div>
-    </div>
-    <div id="right-container">
-        <div id="Introduction">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+        <div id="right-container">
+          <p>RIGHT</p>
+          <div id="introduction">
+            <p>This is not a real service! You know you need somthing like this in your life to help you realize your deepest dreams. Sing up now to get started</p>
+            <p>You know you want too</p>
+            <div id="form-container">
+              <form action="https://example.com/path" method="post">
+                <ul>
+                  <li id="row-1">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name">
+                  </li>
+                  <li id="row-2">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email">
+                    <label for="phone_number">Phone Number:</label>
+                    <input type="text" id="phone_number">
+                  </li>
+                  <li id="password-section">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password">
+                  </li>
+                </ul>
+              </form>
+              <div id='button'>
+                <button type="submit">Submit</button>
+                <p> Already have an account? Log in
+              </div>
+            </div>
+          </div>
         </div>
-        <h2>Let's do this!</h2>
-        <div id="form-container" class="container">
-            
-                <form action="url" method="post">
-                    <div id="form-left">
-                        <label for="first_name">First Name</label>
-                        <input type="text" name="first_name" id="first_name">
-                        
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                        
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
-                    </div>
-                    
-                    <div id="form-right">
-                        <label for="last_name">Last Name</label>
-                        <input type="text" name="last_name" id="last_name">
-                        
-                        <label for="phone_number">Phone Number</label>
-                        <input type="tel" name="phone_number" id="phone_number">
-                        
-                        <label for="confirm_password">Confirm Password</label>
-                        <input type="password" name="confirm_password" id="confirm_password">
-                    </div>
-                    <button type="submit">Create Account</button>
-                </form>
-        </div>
-        <div>
-            <p>Already have an account? <a href="login.html">Log in</a></p>
-        </div>
-    </div>
+      </div>
+      
 </body>
 </html>

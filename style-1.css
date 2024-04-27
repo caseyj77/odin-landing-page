@@ -1,28 +1,69 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Norse Bold";
-}
-
-button {
-    background-color: #596d48;
-    color: white;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-#form-left {
+  }
+  body {
+    padding: 100px;
+  }
+  #page-container {
+    display: flex;
+    gap: 5px;
+  }
+  
+  #left-container {
+    display: flex;
+    width: 350px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1710302070921-3ecbd6a84b41?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxNzM3MDJ8&ixlib=rb-4.0.3&q=85)
+  }
+  
+  #right-container {
     display: flex;
     flex-direction: column;
-}
-
-#form-left {
+    background-color: grey;
+    border: 1px solid blue;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    width: 100%; /* Full width of form */
+  }
+  
+  form {
     display: flex;
+    padding: 25px;
+    justify-content: center;
+    background-color: white;
     flex-direction: column;
-}
-
-#form-container {
+  }
+  
+  li {
     display: flex;
-    flex-direction: column;
-
-}
+    margin-bottom: 10px;
+    align-items: center; /* Align items in the middle */
+    justify-content: space-between; /* Space between label and input */
+  }
+  
+  label, input {
+    margin: 5px;
+  }
+  
+  label {
+    width: 30%; /* Set label width */
+    text-align: right; /* Align text to right for neatness */
+  }
+  
+  input {
+    flex: 1; /* Inputs take the remaining space */
+  }
+  
+  #button {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
