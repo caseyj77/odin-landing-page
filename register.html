@@ -9,13 +9,14 @@
 <body>
     <div id="page-container">
         <div id="left-container">
-          <p>LEFT</p>
+          <div class="text-container">
+            <p id="left-text">ODIN</p>
+          </div>
         </div>
         <div id="right-container">
-          <p>RIGHT</p>
           <div id="introduction">
-            <p>This is not a real service! You know you need somthing like this in your life to help you realize your deepest dreams. Sing up now to get started</p>
-            <p>You know you want too</p>
+            <p class="intro-text">This is not a real service! You know you need somthing like this in your life to help you realize your deepest dreams. Sing up now to get started</p>
+            <p class="intro-text"><br>You know <em>you</em> want too!!</p>
             <div id="form-container">
               <form action="https://example.com/path" method="post">
                 <ul>
@@ -33,20 +34,20 @@
                   </li>
                   <li id="password-section">
                     <label for="password">Password:</label>
-                    <input type="password" id="password">
+                    <input type="password" id="password" name="password">
                     <label for="confirm_password">Confirm Password:</label>
-                    <input type="password" id="confirm_password">
-                  </li>
+                    <input type="password" id="confirm_password" name="confirm_password">
+                </li>
                 </ul>
               </form>
               <div id='button'>
                 <button type="submit">Submit</button>
-                <p> Already have an account? Log in
+                <p class="button-text"> <br>Already have an account? Log in</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
+  <script src="main.js"> </script>
 </body>
 </html>

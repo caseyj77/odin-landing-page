@@ -12,7 +12,8 @@
   
   #left-container {
     display: flex;
-    width: 350px;
+    width: 40vh;
+    height: 100vh;
     background-color: lightblue;
     border: 1px solid blue;
     align-items: center;
@@ -29,6 +30,14 @@
     justify-content: center;
   }
   
+  .intro-text {
+    font-size: xx-large;
+    padding: 5vh;
+    color: aliceblue;
+
+  }
+
+
   ul {
     list-style-type: none;
     width: 100%; /* Full width of form */
@@ -60,6 +69,13 @@
   
   input {
     flex: 1; /* Inputs take the remaining space */
+    height: 3vh;
+
+  }
+    
+  input:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 3px 3px 5px grey; /* Add shadow on right and bottom sides */
   }
   
   #button {
@@ -67,3 +83,14 @@
     text-align: left;
   }
   
+  .text-container {
+    background-color: black;
+    color: white;
+    opacity: .5;
+    height: 20vh;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
